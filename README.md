@@ -6,14 +6,14 @@
 Atlantr is a tool to validate login credentials of email accounts via the IMAP protocol. 
 Green threads (Gevent) are used to implement concurrent and asynchronous networking.
 ### system requirements:
-- Python 2.7.x
+- Python 3
 - Gevent (pip install gevent)
 - tqdm (pip install tqdm)
 - 512MB RAM
 - Linux preferred (faster)
 #### Example usage:
 ```
-python atr3.py -i input.txt -o output.txt -t 1000 -g true 
+python3 atr3_python3.py -i input.txt -o output.txt -t 1000 -g true 
 ```
 #### Optional Arguments:
 If no optional arguments are provided the default values are used.
